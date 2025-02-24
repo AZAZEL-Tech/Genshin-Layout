@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-image: url("img/wallhaven-k7rlg7_1920x1200 (1).png");
+    background-size: cover; /* Pastikan gambar mencakup seluruh layar */
+    background-position: center; /* Pusatkan gambar */
+    background-attachment: fixed; /* Agar gambar tidak bergeser saat di-scroll */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+       .profile-container {
+          background: linear-gradient(135deg, #eef1ba, #d8cd69);
+         width: 400px;
+         border-radius: 10px;
+         padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+        .profile-header {
+            display: flex;
+            align-items: center;
+        }
+        .avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        .profile-info {
+            flex-grow: 1;
+        }
+        .rank-info {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            background: #ddd;
+            padding: 5px;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+        .achievements {
+            display: flex;
+            justify-content: space-between;
+            background: #d4af37;
+            color: #fff;
+            padding: 8px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .character-list {
+            margin-top: 10px;
+        }
+        .characters {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .character {
+            width: 60px;
+            height: 60px;
+            border-radius: 10px;
+            border: 2px solid #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="img/kle.jpg" alt="Avatar" class="avatar">
+            <div class="profile-info">
+                <h2>Wanderer</h2>
+                <p>UID: 12430092</p>
+                <div class="rank-info">
+                    <span class="rank">Rank Adventure: 60</span>
+                    <span class="world-level">Word Level: 8</span>
+                </div>
+                <p class="status">Nguli dlu cuy</p>
+            </div>
+        </div>
+        <div class="achievements">
+            <span>Achievements: <strong>875</strong></span>
+            <span>Spiral Abbys: <strong>12-3</strong></span>
+        </div>
+        <div class="character-list">
+            <h3>Tampilkan Character</h3>
+            <div class="characters">
+                <img src="img/lanyan.jpg" alt="Character 1" class="character">
+                <img src="img/mommy.jpg" alt="Character 2" class="character">
+                <img src="img/miko.jpg" alt="Character 3" class="character">
+                <img src="img/hutao.jpg" alt="Character 4" class="character">
+                <img src="img/citlali.jpeg.jpg" alt="Character 5" class="character">
+                <img src="img/yelan.jpg" alt="Character 6" class="character">
+                <img src="img/nahida.jpeg.jpg" alt="Character 7" class="character">
+                <img src="img/mizuki.jpg" alt="Character 8" class="character">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

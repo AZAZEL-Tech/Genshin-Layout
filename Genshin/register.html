@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register by Email</title>
+    <style>
+        /* Reset default styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.register-container {
+    background: white;
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    background: #3498db;
+    color: white;
+    padding: 15px;
+    margin: -30px -30px 20px -30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.verification {
+    display: flex;
+    justify-content: space-between;
+}
+
+.verification input {
+    flex: 1;
+}
+
+.verification a {
+    background: none;
+    border: none;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.verification a:hover {
+    text-decoration: underline;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.terms input {
+    margin-right: 10px;
+}
+
+.terms a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+    </style>
+</head>
+<body>
+    <div class="register-container">
+        <h2>Register by Email</h2>
+        <form action="#" method="POST">
+            <input type="email" placeholder="Email" required>
+            <div class="verification">
+                <input type="text" placeholder="Verification Code" required>
+                <a href="#">Send</a>
+            </div>
+            <input type="password" placeholder="8–30 characters (mix of both numbers and letters)" required>
+            <input type="password" placeholder="Confirm Password" required>
+            <div class="terms">
+                <input type="checkbox" id="terms" required>
+                <label for="terms">I have read and agree to the <a href="#">Terms of Service</a> & <a href="#">Privacy Policy</a></label>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>

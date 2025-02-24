@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('lily.jpeg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+p {
+    display: flex;
+    justify-content: left;
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.start-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: gold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.login-with {
+    margin-top: 20px;
+    font-size: 14px;
+}
+.social-icons button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.facebook {
+    background-color: blue;
+    color: white;
+}
+.x {
+    background-color: black;
+    color: white;
+}
